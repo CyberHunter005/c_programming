@@ -53,3 +53,7 @@ dkms.conf
 
 # debug information files
 *.dwo
+# Ignore all files in c_basics that don't have an extension
+c_basics/*
+!c_basics/*.c
+!c_basics/.gitignore
